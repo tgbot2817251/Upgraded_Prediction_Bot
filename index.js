@@ -50,7 +50,7 @@ bot.action('verify', async (ctx) => {
         if (isMember1 && isMember2 && isMember3) {
             // ✅ Agar user tino channels me hai, verify success message bhejo
             await ctx.replyWithPhoto(
-                'https://t.me/Only_4_photos/2', // 🔹 Yaha Apna Image URL Dalein
+                'https://t.me/Only_4_photos/8', // 🔹 Yaha Apna Image URL Dalein
                 {
                     caption: `🎉 *ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ, ${ctx.from.first_name}!* 🎉\n\n` +
                              `✅ ʏᴏᴜ ʜᴀᴠᴇ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴠᴇʀɪꜰɪᴇᴅ!\n` +
