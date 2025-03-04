@@ -7,7 +7,7 @@ const bot = new Telegraf('8016348185:AAEezllibS0hkJqUaXjAlS6r4xFiQcZF1ys'); // �
 const channel1 = '@official_team_19';
 const channel2 = '@team19_Secrets';
 const channel3 = '@team19sachin';
-const channel3 = '@+gpt7bMQia4kyMzJl';
+const channel4 = '@+gpt7bMQia4kyMzJl';
 
 // 🔹 Start command – Image + Message + Buttons
 bot.start(async (ctx) => {
