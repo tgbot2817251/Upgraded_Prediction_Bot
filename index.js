@@ -58,10 +58,10 @@ bot.action('verify', async (ctx) => {
                     parse_mode: "Markdown",
                     reply_markup: {
                         inline_keyboard: [
-                            [{ text: "𝟱𝟭 𝗚𝗔𝗠𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.rexlottery.in/51GAME/home.html" } }],
-                            [{ text: "𝗕𝗗𝗚 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.rexlottery.in/BDGWIN/home.html" } }],
-                            [{ text: "𝟭𝟬𝟭 𝗚𝗔𝗡𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.rexlottery.in/101GAME/home.html" } }],
-                            [{ text: "𝗢𝗞 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.rexlottery.in/OKWIN/home.html" } }]
+                            [{ text: "𝟱𝟭 𝗚𝗔𝗠𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.upgradedprediction.site/51GAME/home.html" } }],
+                            [{ text: "𝗕𝗗𝗚 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://upgradedprediction.site/BDGWIN/home.html" } }],
+                            [{ text: "𝟭𝟬𝟭 𝗚𝗔𝗡𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://upgradedprediction.site/101GAME/home.html" } }],
+                            [{ text: "𝗢𝗞 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://upgradedprediction.site/OKWIN/home.html" } }]
                         ]
                     }
                 }
