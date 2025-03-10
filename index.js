@@ -59,9 +59,9 @@ bot.action('verify', async (ctx) => {
                     reply_markup: {
                         inline_keyboard: [
                             [{ text: "𝟱𝟭 𝗚𝗔𝗠𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.upgradedbot.site/51GAME/home.html" } }],
-                            [{ text: "𝗕𝗗𝗚 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://upgradedbot.site/BDGWIN/home.html" } }],
-                            [{ text: "𝟭𝟬𝟭 𝗚𝗔𝗡𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://upgradedbot.site/101GAME/home.html" } }],
-                            [{ text: "𝗢𝗞 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://upgradedbot.site/OKWIN/home.html" } }]
+                            [{ text: "𝗕𝗗𝗚 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.upgradedbot.site/BDGWIN/home.html" } }],
+                            [{ text: "𝟭𝟬𝟭 𝗚𝗔𝗡𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.upgradedbot.site/101GAME/home.html" } }],
+                            [{ text: "𝗢𝗞 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.upgradedbot.site/OKWIN/home.html" } }]
                         ]
                     }
                 }
