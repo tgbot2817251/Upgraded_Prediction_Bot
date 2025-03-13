@@ -1,11 +1,16 @@
+require('dotenv').config(); // Load environment variables from .env
 const { Telegraf } = require('telegraf');
 const axios = require('axios');
 
-const bot = new Telegraf('8016348185:AAG3RVAB9fV_h4wAoZUsRirOmQwjHXImj4s'); // 🔹 Apna BOT Token Yaha Dalein
+// Use the token from .env file
+const bot = new Telegraf(process.env.BOT_TOKEN);
+
+// Rest of your code...
+ // 🔹 Apna BOT Token Yaha Dalein
 
 // 🔹 Aapke Telegram Channels (Apne Replace Karein)
-const channel1 = '@official_team_19';
-const channel2 = '@team19_Secrets';
+const channel1 = '@Mines_Prediction';
+const channel2 = '@GoalGame_Prediction';
 const channel3 = '@team19sachin';
 const channel4 = '@+gpt7bMQia4kyMzJl';
 
@@ -58,10 +63,10 @@ bot.action('verify', async (ctx) => {
                     parse_mode: "Markdown",
                     reply_markup: {
                         inline_keyboard: [
-                            [{ text: "𝟱𝟭 𝗚𝗔𝗠𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.rexlottery.in/51GAME/home.html" } }],
-                            [{ text: "𝗕𝗗𝗚 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.rexlottery.in/BDGWIN/home.html" } }],
-                            [{ text: "𝟭𝟬𝟭 𝗚𝗔𝗡𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.rexlottery.in/101GAME/home.html" } }],
-                            [{ text: "𝗢𝗞 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.rexlottery.in/OKWIN/home.html" } }]
+                            [{ text: "𝟱𝟭 𝗚𝗔𝗠𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.upgradedbot.site/51GAME/home.html" } }],
+                            [{ text: "𝗕𝗗𝗚 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.upgradedbot.site/BDGWIN/home.html" } }],
+                            [{ text: "𝟭𝟬𝟭 𝗚𝗔𝗡𝗘 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.upgradedbot.site/101GAME/home.html" } }],
+                            [{ text: "𝗢𝗞 𝗪𝗜𝗡 𝗛𝗔𝗖𝗞", web_app: { url: "https://www.upgradedbot.site/OKWIN/home.html" } }]
                         ]
                     }
                 }
